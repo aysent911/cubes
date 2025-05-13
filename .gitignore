@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+cmake-build-debug
+linux-terminal.jpg
+microsoft.*
+linux.png
+

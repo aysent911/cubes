@@ -1,0 +1,17 @@
+#! /usr/bin/bash
+# Preinstall script for mouse-input tp remove previous versions of mouse-input
+if [ -f "/usr/bin/cubes" ]; then
+	sudo rm -f /usr/bin/cubes
+	echo "removing /usr/bin/cubes"
+fi
+
+if [ -f "/usr/share/applications/cubes.desktop" ]; then
+	sudo rm -f /usr/share/applications/cubes.desktop
+	echo "removing /usr/share/applications/cubes.desktop"
+fi
+
+if [ -f "/usr/share/icons/cubes.png" ]; then
+	sudo rm -f /usr/share/icons/cubes.png
+	echo "removing /usr/share/icons/cubes.png"
+fi
+
