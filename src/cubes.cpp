@@ -1,6 +1,4 @@
-/*Because OpenGL works majorly with triangle primitives, in order to draw a
-rectangle two triagles are drawn with the help of element buffer object*/
-
+/*OpenGL project to demo textures, translation, camera and mouse input*/
 #include <iostream>
 #include <cmath>
 #include <string>
@@ -44,6 +42,8 @@ unsigned char selectedView=2;
 glm::mat4 model=glm::mat4(1.0f);//identity matrix
 glm::mat4 view=glm::mat4(1.0f);
 glm::mat4 projection;
+/*Because OpenGL works majorly with triangle primitives, in order to draw a
+rectangle two triagles are drawn with the help of element buffer object*/
 glm::vec3 cubePositions[] = {
   glm::vec3( 0.0f, 0.0f,0.0f),
   glm::vec3( 2.0f, 5.0f, -4.3f),
