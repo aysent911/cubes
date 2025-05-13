@@ -1,0 +1,9 @@
+
+Package: cubes
+Version: 0.0
+Architecture: amd64
+Essential: no
+Priority: optional
+Depends:
+Maintainer: Teddy Silvance
+Description: A simple OpenGL demo program

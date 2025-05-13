@@ -1,0 +1,14 @@
+
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Cubes
+GenericName=Cubes
+Comment=OpenGL demo application
+Exec=/usr/bin/cubes
+TryExec=/usr/bin/cubes
+Terminal=true
+Icon=/usr/share/icons/cubes.png
+Categories=GTK;
+
+
